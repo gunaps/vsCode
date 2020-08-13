@@ -1,5 +1,6 @@
 public with sharing class APTPS_ApplyPricingNewController {
     //show error messages
+    //Guna:Added new Code.
     public Boolean haserrorMessages {get;set;}
     public String configurationId {get; set;}
     public String configRequestId {get; set;}
