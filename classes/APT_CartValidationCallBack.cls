@@ -6,6 +6,7 @@ global with sharing class APT_CartValidationCallBack implements Apttus_Config2.C
         * Callback to validate the line items in the cart
         * @param cart the cart object to validate
         * @return the validation result
+        Added new comment
      */
     global Apttus_Config2.CustomClass.ValidationResult validateCart(Apttus_Config2.ProductConfiguration cart) {
         system.debug('*** validation call back > start ***');
